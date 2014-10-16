@@ -3,9 +3,11 @@ inspection-processing
 
 Here are the steps I took to process the 2014 WACR M&B field inspection data for data entry into GIS
 
+Start time: 8:15am
+
 ###Copying files
 
-Copied 5 CD's of photos to my network drive (30 mins)
+Copied 5 CD's of photos to my network drive 
 
 **Issues**
 
@@ -132,3 +134,9 @@ To indicate DOT numbers that will need to be looked up:
 For range `=$M2=""`, `=m2=""`, fill teal, text white, outer border 
 
 [Write the data entry instructions documentation](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Xings%20Instructions.md)
+
+Highlight on the form which fields will have to be entered
+
+Do the data entry on 3 forms to check the process for completion
+
+Finish: 1:45pm (5 hours total)
