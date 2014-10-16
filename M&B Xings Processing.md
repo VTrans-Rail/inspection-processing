@@ -104,7 +104,7 @@ The new order:
 7. Number of Photos
 8. Remedial action
 9. Other Notes (Handwritten)
-10. Private DOT Number
+10. DOT Number
 11. Data entry notes
 12. DPR Hyperlink
 
@@ -126,3 +126,7 @@ The new order:
 2. Mismatch Count
   - Formula: `=COUNTIF($AB2:$AJ2,"N")`  
 
+- Add `Conditional Formatting` to help show Private vs Public crossings to easily indicate which crossings need to have their DOT numbers looked up
+
+To indicate DOT numbers that will need to be looked up:
+For range `=$M2=""`, `=m2=""`, fill teal, text white, outer border 
