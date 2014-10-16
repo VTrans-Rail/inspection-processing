@@ -130,3 +130,5 @@ The new order:
 
 To indicate DOT numbers that will need to be looked up:
 For range `=$M2=""`, `=m2=""`, fill teal, text white, outer border 
+
+[Write the data entry instructions documentation](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Xings%20Instructions.md)
