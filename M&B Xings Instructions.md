@@ -49,15 +49,17 @@ These names model the way all subsequent files and folders should be named.
 
 Here are the appropriate values for the plot set attributes. You will fill in the YELLOW ones, the rest have been set in the seed files.
 
-|DPR Field Name       |Value|
-|---------------------|-----|
-|Town                 |Value from <TOWN NAME> field - ALL CAPS|
-|Grade Crossing Number|DOT Number, properly formatted|
-|Route Number         |WACR|
-|Mile Marker          |Value from <MP> field, properly formatted|
-|Year Photos Taken    |Year from <InspDate> field, 4 digits|
+|DPR Field Name       |Value                                      |
+|---------------------|-------------------------------------------|
+|Town                 |Value from <TOWN NAME> field - ALL CAPS    |
+|Grade Crossing Number|DOT Number, properly formatted             |
+|**Route Number**     |**WACR**                                   |
+|Mile Marker          |Value from <MP> field, properly formatted  |
+|Year Photos Taken    |Year from <InspDate> field, 4 digits       |
 |Feature Crossed      |Value from <Crossing Name> field - ALL CAPS|
-|Comments             |(only critical notes, see examples below)|
+|Comments             |(only critical notes, see examples below)  |
+
+All plot attributes above will need to be filled out with the exception of **Route Number** *(in bold)*
 
 Options for **Critical Notes** field:  
 - No inpsection photos  
