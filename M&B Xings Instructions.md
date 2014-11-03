@@ -59,8 +59,6 @@ Here are the appropriate values for the plot set attributes. You will fill in th
 |**Feature Crossed**      |**Value from <Crossing Name> field - ALL CAPS**|
 |**Comments**             |**(only critical notes, see examples below)**  |
 
-All plot attributes above will need to be filled out with the exception of **Route Number** *(in bold)*
-
 Options for **Critical Notes** field:  
 - No inpsection photos  
 - No inspection form  
