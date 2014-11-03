@@ -9,7 +9,7 @@
   b.	Enter information from inspection sheet into columns with BLUE headers  
   c.	If multiple boxes are checked for any attribute, write **“Other”**. Indicate which boxes were checked in the **“Data Entry Notes”**  
   d.	If no boxes are checked, leave blank  
-  e.	Note: Crossings are color-coded for based on whether or not the DOT number is provided. Look for the teal box pictured here ![teal](img/DOT-needed.PNG)
+  e.	Note: Crossings are color-coded for based on whether or not the DOT number is provided. Look for the teal box pictured here ![teal](img/DOT-needed.PNG). If the crossing doesn't have a DOT number then put "NOT-NUMB" in that box.
 
 2. Data Validation  
   a. Validate data based on questions in the orange headers  
@@ -70,6 +70,10 @@ Options for **Critical Notes** field:
 **Excel Data-Entry File**  
   
 V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\_DataEntry\MB_Crossings.xlsx  
+
+**Source "Word Document"**  
+  
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\_DataEntry\M&BL CROSSINGS MASTER 2014.docx
   
 **ArcMap MXD**  
 
