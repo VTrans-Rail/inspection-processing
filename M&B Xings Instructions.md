@@ -9,7 +9,7 @@
   b.	Enter information from inspection sheet into columns with BLUE headers  
   c.	If multiple boxes are checked for any attribute, write **“Other”**. Indicate which boxes were checked in the **“Data Entry Notes”**  
   d.	If no boxes are checked, leave blank  
-  e.	Note: Crossings are color-coded for based on whether or not the DOT number is provided. Look for the teal box pictured here ![teal](img/DOT-needed.PNG). If the crossing doesn't have a DOT number then put "NOT-NUMB" in that box.
+  e.	Note: Crossings are color-coded for based on whether or not the DOT number is provided. Look for the teal box pictured here ![teal](img/DOT-needed.PNG). If the crossing doesn't have a DOT number then put "NOT-NUMB" in that box. Red hatched boxes have their DOT numbers from the word document.
 
 2. Data Validation  
   a. Validate data based on questions in the orange headers  
