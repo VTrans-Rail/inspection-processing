@@ -7,6 +7,10 @@ Start time: 9:15am
 
 Break: 10:15am
 
+Back: 1:30
+
+Until 3:00 (conversations)
+
 ###Processing Word document "table"
 
 Each asset inspected included a table in a Word document with basic information about all the assets inspected.
@@ -49,6 +53,15 @@ Changes to
   - These are both Yes/No fields
   - Remove `WARNING DEVICE` column when done
 - Re-order the fields to reflect the order they appear on the inspection sheet
+
+#####Removed:
+1. VAL Update - not noted on any sheet
+2. Culvert # - not noted on any sheet
+
+#####Changed:
+1. Length - in word doc, but still needs typed in blue for some sheets
+2. Insp Date - in word doc (blue to green)
+3. VAL Station - in word doc (blue to green)
 
 The new order:
 
