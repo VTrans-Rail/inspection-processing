@@ -112,11 +112,11 @@ The new order:
 
 1. Word Doc
 2. Photos
-3. On Track Chart
-4. Track Chart Type
-5. On VAL sheet
-6. VAL sheet station
-7. Matches VAL type
+3. ~~On Track Chart~~ _No culverts on M&B track chart_  
+4. ~~Track Chart Type~~
+5. ~~On VAL sheet~~ _No culverts on VAL sheets_
+6. ~~VAL sheet station~~
+7. ~~Matches VAL type~~
 
 - Add QC results columns
 
