@@ -9,8 +9,6 @@ Break: 10:15am
 
 Back: 1:30
 
-Until 3:00 (conversations)
-
 ###Processing Word document "table"
 
 Each asset inspected included a table in a Word document with basic information about all the assets inspected.
@@ -70,14 +68,10 @@ The new order:
 3. VAL Sheet
 4. VAL Station
 5. MP
-6. Crossing Name
-7. Crossing Type
-8. DOT Number
-9. Signaled
-10. Crossbucks  
-11. Rail Type  
+6. Insp Date
+7. Length
  
-- Add some additional fields 
+- Add some additional fields at the beginning
   
 1. Inspector
 2. VRLID
@@ -92,8 +86,6 @@ The new order:
 - Old: M 0.70
 - New: 0.70
 
-- VAL Update `X` should be replaced with `Yes`
-
 - Create a numerical field called `Orig` to store the original order they appeared in the Word document
 
 **Now bring this table into the Excel document
@@ -102,16 +94,17 @@ The new order:
 
 - Add columns for inspection sheet fields
 
-1. Crossing Location
-2. Road Surface
-3. Flangeway
-4. Overall Condition
-5. Rail Condition
-6. Line of Sight
+1. Culvert Type
+2. Culvert Description
+3. Height From Rail
+4. Length
+5. Width
+6. Depth
+7. Culvert Condition
 7. Number of Photos
 8. Remedial action
+9. Additional Notes
 9. Other Notes (Handwritten)
-10. DOT Number
 11. Data entry notes
 12. DPR Hyperlink
 
@@ -123,8 +116,7 @@ The new order:
 4. Track Chart Type
 5. On VAL sheet
 6. VAL sheet station
-7. GIS symbol present
-8. Match DOT number?
+7. Matches VAL type
 
 - Add QC results columns
 
@@ -133,15 +125,10 @@ The new order:
 2. Mismatch Count
   - Formula: `=COUNTIF($AB2:$AJ2,"N")`  
 
-- Add `Conditional Formatting` to help show Private vs Public crossings to easily indicate which crossings need to have their DOT numbers looked up
-
-To indicate DOT numbers that will need to be looked up:
-For range `=$M2=""`, `=m2=""`, fill teal, text white, outer border 
-
-[Write the data entry instructions documentation](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Xings%20Instructions.md)
+[Write the data entry instructions documentation](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Culverts%20Instructions.md)
 
 Highlight on the form which fields will have to be entered
 
 Do the data entry on 3 forms to check the process for completion
 
-Finish: 1:45pm (5 hours total)
+Finish: 3:00pm (3 hours total)
