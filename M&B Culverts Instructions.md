@@ -1,4 +1,4 @@
-#Montpelier & Barre Crossings 2014
+#Montpelier & Barre Culverts 2014
 
 *All folders mentioned have their full paths on the last page
 
@@ -23,20 +23,20 @@
 These names model the way all subsequent files and folders should be named.
 
 ###Correct naming:
-  M 0.16.ips
-  M 1.43.ips
-  M 11.32.ips
-  M 10.80.ips
-  M 12.64N.ips (only where there are two at the same MP. Use Frenchy’s notation)
-  M 12.89A.ips (only where there are two at the same MP. Use Frenchy’s notation)
+  M 0.16.ips  
+  M 1.43.ips  
+  M 11.32.ips  
+  M 10.80.ips  
+  M 12.64N.ips (only where there are two at the same MP. Use Frenchy’s notation)  
+  M 12.89A.ips (only where there are two at the same MP. Use Frenchy’s notation)  
 
 ###Incorrect naming *(explanation)*:  
-  M  1.43.ips (two spaces after “D”)
-  m 11.32.ips (lowercase “d”)
-  M 09.30.ips (leading zero)
-  M 1.3.ips (no trailing zero)
-  M .16.ips (MP 0 is the only time you’ll use a leading zero) 
-  M 09.46 2013 (no year necessary)
+  M  1.43.ips (two spaces after “D”)  
+  m 11.32.ips (lowercase “d”)  
+  M 09.30.ips (leading zero)  
+  M 1.3.ips (no trailing zero)  
+  M .16.ips (MP 0 is the only time you’ll use a leading zero)   
+  M 09.46 2013 (no year necessary)  
 
   
 4. DPR  
@@ -68,7 +68,7 @@ Here are the appropriate values for the plot set attributes. You will fill in th
 |Culvert ID           |_Leave this attribute blank_                         |
 |**Culvert Length**   | **Value from <Culvert Length> field in data sheet   |
 |**Culvert Type**     | **Value from <Culvert Type> field in data sheet     |
-|**Comments           |**(only critical notes, see examples below)**        |
+|**Comments**         |**(only critical notes, see examples below)**        |
 
 Options for **Culvert Types** field (**EXACTLY** as shown)  
 - Stone box
