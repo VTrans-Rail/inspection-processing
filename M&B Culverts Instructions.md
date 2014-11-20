@@ -58,24 +58,23 @@ These names model the way all subsequent files and folders should be named.
 
 Here are the appropriate values for the plot set attributes. You will fill in the **BOLD** ones, the rest have been set in the seed files.
 
-|DPR Field Name       |Value                                                |
-|---------------------|-----------------------------------------------------|
-|Line Name            |WACR                                                 |
-|Subdivision          |MONTPELIER & BARRE                                   |
-|Branch               |NONE                                                 |
-|**Town**             |**Value from <Town> field in data sheet, ALL CAPS**  |
-|Year Inspected       |2014                                                 |
-|Culvert ID           |_Leave this attribute blank_                         |
-|**Culvert Length**   | **Value from <Culvert Length> field in data sheet   |
-|**Culvert Type**     | **Value from <Culvert Type> field in data sheet     |
-|**Comments**         |**(only critical notes, see examples below)**        |
+| DPR Field Name |                        Value                        |
+| -------------- | --------------------------------------------------- |
+| Line Name      | WACR                                                |
+| Subdivision    | MONTPELIER & BARRE                                  |
+| Branch         | NONE                                                |
+| **Town**       | **Value from <Town> field in data sheet, ALL CAPS** |
+| Year Inspected | 2014                                                |
+| Switch Number  | _Leave this attribute blank_                        |
+| Switch Name    | **Value from <Switch Name> field in data sheet**   |
+| **Comments**   | **(only critical notes, see examples below)**       |
 
-Options for **Culvert Types** field (**EXACTLY** as shown)  
-- Stone box
-- CMP
-- C.I.
-- Concrete
-- ABS
+Options for **Switch Types** field (**EXACTLY** as shown)  
+- Main Track
+- Siding
+- Spur
+- Yard
+- Private
 - Other
   - Use when multiple types are selected
 - Unknown
@@ -84,7 +83,7 @@ Options for **Culvert Types** field (**EXACTLY** as shown)
 Options for **Critical Notes** field:  
 - No inpsection photos  
 - No inspection form  
-- Description of "Other" culvert type when given
+- Description of "Other" switch type when given
 - (If you think another note should go here, please ask me first)  
  
 
@@ -92,23 +91,23 @@ Options for **Critical Notes** field:
 
 **Excel Data-Entry File**  
   
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DataEntry\MB_Culverts.xlsx  
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Switches\_DataEntry\MB_Switches.xlsx  
 
 **Source "Word Document"**  
   
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DataEntry\M&BL CULVERTS 2014.docx
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Switches\_DataEntry\M&BL Switches Master 2014.docx
   
 **ArcMap MXD**  
 
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DataEntry\MB_Culverts.mxd
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Switches\_DataEntry\MB_Culverts.mxd
 
 **Photos**  
   
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\Mile (Prefix) (MP) \ (Prefix) (MP) (Direction).jpg
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Switches\Mile (Prefix) (MP) \ (Prefix) (MP) (Direction).jpg
 
 **_DPR Folder with SEED files**
 
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DPR
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Switches\_DPR
 
 **Latest Track Chart**
 

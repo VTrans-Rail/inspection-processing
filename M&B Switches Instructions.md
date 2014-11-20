@@ -1,4 +1,4 @@
-#Montpelier & Barre Switches 2014
+#Montpelier & Barre Culverts 2014
 
 *All folders mentioned have their full paths on the last page
 
@@ -7,8 +7,12 @@
 1. Data Entry  
   a.  Look at inspection sheet and open Excel data entry file  
   b.	Enter information from inspection sheet into columns with BLUE headers  
-  c.	If multiple boxes are checked for any attribute, write **“Other”**. Indicate which boxes were checked in the **“Data Entry Notes”**  
-  d.	If no boxes are checked, leave blank  
+  c.  Be sure that **"Culvert Type" EXACTLY** matches the inspection sheet
+    c.	If multiple boxes are checked for any attribute, write **“Other”**. 
+      - Indicate which boxes were checked in the **“Data Entry Notes”**  
+    d.	If no boxes are checked, leave blank  
+    e. If no boxes are checked, write "Unknown"
+
 2. Data Validation  
   a. Validate data based on questions in the orange headers  
   b. Indicate Y or N in **every** box  
@@ -33,9 +37,10 @@ These names model the way all subsequent files and folders should be named.
   M 1.3.ips (no trailing zero)  
   M .16.ips (MP 0 is the only time you’ll use a leading zero)   
   M 09.46 2013 (no year necessary)  
+
   
 4. DPR  
-  b.  Locate the blank seed file in the _DPR folder: **M X.XX.ips**  
+  b.	Locate the blank seed file in the _DPR folder: **M X.XX.ips**  
   c.  Upload inspection form with photos based on RR and MP
 
 5. DPR Workflow
@@ -53,21 +58,33 @@ These names model the way all subsequent files and folders should be named.
 
 Here are the appropriate values for the plot set attributes. You will fill in the **BOLD** ones, the rest have been set in the seed files.
 
+|DPR Field Name       |Value                                                |
+|---------------------|-----------------------------------------------------|
+|Line Name            |WACR                                                 |
+|Subdivision          |MONTPELIER & BARRE                                   |
+|Branch               |NONE                                                 |
+|**Town**             |**Value from <Town> field in data sheet, ALL CAPS**  |
+|Year Inspected       |2014                                                 |
+|Culvert ID           |_Leave this attribute blank_                         |
+|**Culvert Length**   | **Value from <Culvert Length> field in data sheet   |
+|**Culvert Type**     | **Value from <Culvert Type> field in data sheet     |
+|**Comments**         |**(only critical notes, see examples below)**        |
 
-
-|       DPR Field Name      |                      Value                      |
-| ------------------------- | ----------------------------------------------- |
-| **Town**                  | **Value from <TOWN NAME> field - ALL CAPS**     |
-| **Grade Crossing Number** | **DOT Number, properly formatted**              |
-| Route Number              | WACR                                            |
-| **Mile Marker**           | **Value from <MP> field, properly formatted**   |
-| Year Photos Taken         | Year from <InspDate> field, 4 digits            |
-| **Feature Crossed**       | **Value from <Crossing Name> field - ALL CAPS** |
-| **Comments**              | **(only critical notes, see examples below)**   |
+Options for **Culvert Types** field (**EXACTLY** as shown)  
+- Stone box
+- CMP
+- C.I.
+- Concrete
+- ABS
+- Other
+  - Use when multiple types are selected
+- Unknown
+  - Use when no type is checked
 
 Options for **Critical Notes** field:  
 - No inpsection photos  
 - No inspection form  
+- Description of "Other" culvert type when given
 - (If you think another note should go here, please ask me first)  
  
 
@@ -75,23 +92,23 @@ Options for **Critical Notes** field:
 
 **Excel Data-Entry File**  
   
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\_DataEntry\MB_Crossings.xlsx  
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DataEntry\MB_Culverts.xlsx  
 
 **Source "Word Document"**  
   
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\_DataEntry\M&BL CROSSINGS MASTER 2014.docx
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DataEntry\M&BL CULVERTS 2014.docx
   
 **ArcMap MXD**  
 
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\_DataEntry\MB_Crossings.mxd
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DataEntry\MB_Culverts.mxd
 
 **Photos**  
   
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\Mile (Prefix) (MP) \ (Prefix) (MP) (Direction).jpg
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\Mile (Prefix) (MP) \ (Prefix) (MP) (Direction).jpg
 
 **_DPR Folder with SEED files**
 
-V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Crossings\_DPR
+V:\Projects\Specials\Rail_Property_Management\Inspection\Frenchy\MB_2014\Culverts\_DPR
 
 **Latest Track Chart**
 
