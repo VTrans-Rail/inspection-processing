@@ -9,4 +9,4 @@ Here are the steps I took to process the 2014 WACR M&B field inspection data for
 
 [WACR M&B Culverts Processing Steps](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Culverts%20Processing.md)
 
-[WACR M&B cULVERTS Data Entry Instructions](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Culverts%20Instructions.md)
+[WACR M&B Culverts Data Entry Instructions](https://github.com/VTrans-Rail/inspection-processing/blob/master/M%26B%20Culverts%20Instructions.md)
